@@ -1,4 +1,17 @@
-                         ----------------------
+HAProxy to add TCP analysers specialising in LDAP/LDAPS packet inspection loadbalancing
+
+
+Building with full DEBUG support
+
+
+make TARGET=linux2628 USE_PCRE=1 USE_OPENSSL=1 USE_ZLIB=1  DEBUG=-DDEBUG_FULL
+
+
+
+
+
+
+                          ----------------------
                              HAProxy how-to
                          ----------------------
                               version 1.9
@@ -267,7 +280,7 @@ There is some documentation in the doc/ directory :
       syntax (keywords, units). It also describes the log and stats format. It
       is normally always up to date. If you see that something is missing from
       it, please report it as this is a bug. Please note that this file is
-      huge and that it's generally more convenient to review Cyril Bonté's
+      huge and that it's generally more convenient to review Cyril BontÃ©'s
       HTML translation online here :
 
            http://cbonte.github.io/haproxy-dconv/configuration-1.6.html
