@@ -1,10 +1,10 @@
-HAProxy to add TCP analysers specialising in LDAP/LDAPS packet inspection loadbalancing
+HAProxy to add TCP analysers specialising in LDAP/LDAPS packet inspection loadbalancing  
+  
 
+Building with full DEBUG support  
+  
 
-Building with full DEBUG support
-
-
-make TARGET=linux2628 USE_PCRE=1 USE_OPENSSL=1 USE_ZLIB=1  DEBUG=-DDEBUG_FULL
+make TARGET=linux2628 USE_PCRE=1 USE_OPENSSL=1 USE_ZLIB=1  DEBUG=-DDEBUG_FULL  
 
 
 
