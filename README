@@ -1,4 +1,4 @@
-HAProxy to add TCP analysers specialising in LDAP/LDAPS packet inspection loadbalancing  
+HAProxy fork to add TCP analysers specialising in LDAP/LDAPS packet inspection loadbalancing  
   
 
 Building with full DEBUG support  
